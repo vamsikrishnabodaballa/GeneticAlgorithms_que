@@ -8,9 +8,9 @@ With the parameters determined as above, the GA program is run afresh for 5 (or 
 
 (a) Minimize f(x,y) = (1.5 – x – x*y)^2 + (2.25 – x + x*(y^2) )^2 + (2.625 – x + x*(y^3) )^2 
     Subject to following bound constraints;  
-##       x >= -5;  
-##       x <= 5;  
-##       y >= -2;  
-##       y <= 2;  
+#####      x >= -5;  
+#####      x <= 5;  
+#####      y >= -2;  
+#####      y <= 2;  
    
    The accuracy must be more than two decimal places.
