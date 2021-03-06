@@ -7,7 +7,8 @@ When the output (solution to the problem) of the program starts giving almost th
 With the parameters determined as above, the GA program is run afresh for 5 (or more) number of times to ensure that the program returns the same value of the objective function in most of the cases, if not all. 
 
 (a) Minimize f(x,y) = (1.5 – x – x*y)^2 + (2.25 – x + x*(y^2) )^2 + (2.625 – x + x*(y^3) )^2  
-    Subject to following bound constraints;  
+  
+   Subject to following bound constraints;  
 #####      x >= -5;  
 #####      x <= 5;  
 #####      y >= -2;  
@@ -15,8 +16,9 @@ With the parameters determined as above, the GA program is run afresh for 5 (or 
    
    The accuracy must be more than two decimal places.
 
-(b) Minimize f(x,y) = ((x^2) –y -11) ^2 + (x + (y^2) - 7 )^2  
-    Subject to following bound constraints;  
+(b) Minimize f(x,y) = ((x^2) –y -11) ^2 + (x + (y^2) - 7 )^2   
+
+   Subject to following bound constraints;  
 ##### x >= -4;  
 ##### x <= 4;  
 ##### y >= -4;  
