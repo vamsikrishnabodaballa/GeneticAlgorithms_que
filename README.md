@@ -6,7 +6,7 @@ Normally, for solving an unknown or a new optimization problem, at the outset, w
 When the output (solution to the problem) of the program starts giving almost the same or similar results, the corresponding combination is used for solving the optimization problem finally. 
 With the parameters determined as above, the GA program is run afresh for 5 (or more) number of times to ensure that the program returns the same value of the objective function in most of the cases, if not all. 
 
-(a) Minimize f(x,y) = (1.5 – x – x*y)^2 + (2.25 – x + x*(y^2) )^2 + (2.625 – x + x*(y^3) )^2 
+(a) Minimize f(x,y) = (1.5 – x – x*y)^2 + (2.25 – x + x*(y^2) )^2 + (2.625 – x + x*(y^3) )^2  
     Subject to following bound constraints;  
 #####      x >= -5;  
 #####      x <= 5;  
@@ -14,3 +14,12 @@ With the parameters determined as above, the GA program is run afresh for 5 (or 
 #####      y <= 2;  
    
    The accuracy must be more than two decimal places.
+
+(b) Minimize f(x,y) = ((x^2) –y -11) ^2 + (x + (y^2) - 7 )^2  
+    Subject to following bound constraints;  
+    ##### x >= -4;  
+    ##### x <= 4;  
+    ##### y >= -4;  
+    ##### y <= 4;  
+    
+   The accuracy must be more than six decimal places.
