@@ -17,9 +17,9 @@ With the parameters determined as above, the GA program is run afresh for 5 (or 
 
 (b) Minimize f(x,y) = ((x^2) –y -11) ^2 + (x + (y^2) - 7 )^2  
     Subject to following bound constraints;  
-    ##### x >= -4;  
-    ##### x <= 4;  
-    ##### y >= -4;  
-    ##### y <= 4;  
+##### x >= -4;  
+##### x <= 4;  
+##### y >= -4;  
+##### y <= 4;  
     
    The accuracy must be more than six decimal places.
